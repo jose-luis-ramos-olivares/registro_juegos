@@ -1,0 +1,27 @@
+# -*- shell-script -*-
+# Copyright 1999-2020 ImageMagick Studio LLC
+# Definitions of optional features and configuration values for this build.
+# Intended for use by test scripts.
+MAGICK_FEATURES='DPC HDRI Cipher OpenMP'
+top_srcdir='/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35'
+top_builddir='/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35'
+
+set -a
+COMPARE="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities/magick compare"
+COMPOSITE="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities/magick composite"
+CONJURE="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities/magick conjure"
+CONVERT="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities/magick convert"
+DISPLAY="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities/magick display"
+IDENTIFY="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities/magick identify"
+MAGICK="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities/magick"
+MONTAGE="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities/magick montage"
+VALIDATE="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/tests/validate"
+DRAWTEST="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/tests/drawtest"
+WANDTEST="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/tests/wandtest"
+LD_LIBRARY_PATH="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/MagickCore/.libs:/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/MagickWand/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/coders"
+MAGICK_CONFIGURE_PATH="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/config:/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/config"
+MAGICK_FILTER_MODULE_PATH="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/filters"
+MAGICK_FONT="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/PerlMagick/demo/Generic.ttf"
+PATH="/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/utilities:/home/jose/Full Stack - Desafio Latam/Modulo 5 - Desarrollo rails y javascript/Unidad 3 - Polimorfismo y subida de archivos/Desafio - Registro de juegos/registro_juegos/ImageMagick-7.0.10-35/tests:${PATH}"
+set +a
